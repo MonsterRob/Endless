@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51D24A901DAA040500EF2A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D24A8F1DAA040500EF2A97 /* main.m */; };
+		51D24A931DAA040500EF2A97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D24A921DAA040500EF2A97 /* AppDelegate.m */; };
+		51D24A961DAA040500EF2A97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D24A951DAA040500EF2A97 /* ViewController.m */; };
+		51D24A991DAA040500EF2A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D24A971DAA040500EF2A97 /* Main.storyboard */; };
+		51D24A9B1DAA040500EF2A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D24A9A1DAA040500EF2A97 /* Assets.xcassets */; };
+		51D24A9E1DAA040500EF2A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D24A9C1DAA040500EF2A97 /* LaunchScreen.storyboard */; };
+		51D24AA81DAA044900EF2A97 /* WZZEndlessLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D24AA71DAA044900EF2A97 /* WZZEndlessLoopScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51D24A8B1DAA040500EF2A97 /* Endless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D24A8F1DAA040500EF2A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51D24A911DAA040500EF2A97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51D24A921DAA040500EF2A97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51D24A941DAA040500EF2A97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51D24A951DAA040500EF2A97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51D24A981DAA040500EF2A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51D24A9A1DAA040500EF2A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51D24A9D1DAA040500EF2A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51D24A9F1DAA040500EF2A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D24AA61DAA044900EF2A97 /* WZZEndlessLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZEndlessLoopScrollView.h; sourceTree = "<group>"; };
+		51D24AA71DAA044900EF2A97 /* WZZEndlessLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZEndlessLoopScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51D24A881DAA040500EF2A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51D24A821DAA040500EF2A97 = {
+			isa = PBXGroup;
+			children = (
+				51D24A8D1DAA040500EF2A97 /* Endless */,
+				51D24A8C1DAA040500EF2A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51D24A8C1DAA040500EF2A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51D24A8B1DAA040500EF2A97 /* Endless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51D24A8D1DAA040500EF2A97 /* Endless */ = {
+			isa = PBXGroup;
+			children = (
+				51D24A911DAA040500EF2A97 /* AppDelegate.h */,
+				51D24A921DAA040500EF2A97 /* AppDelegate.m */,
+				51D24A941DAA040500EF2A97 /* ViewController.h */,
+				51D24A951DAA040500EF2A97 /* ViewController.m */,
+				51D24AA51DAA044900EF2A97 /* WZZEndlessLoopScrollView */,
+				51D24A971DAA040500EF2A97 /* Main.storyboard */,
+				51D24A9A1DAA040500EF2A97 /* Assets.xcassets */,
+				51D24A9C1DAA040500EF2A97 /* LaunchScreen.storyboard */,
+				51D24A9F1DAA040500EF2A97 /* Info.plist */,
+				51D24A8E1DAA040500EF2A97 /* Supporting Files */,
+			);
+			path = Endless;
+			sourceTree = "<group>";
+		};
+		51D24A8E1DAA040500EF2A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D24A8F1DAA040500EF2A97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D24AA51DAA044900EF2A97 /* WZZEndlessLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				51D24AA61DAA044900EF2A97 /* WZZEndlessLoopScrollView.h */,
+				51D24AA71DAA044900EF2A97 /* WZZEndlessLoopScrollView.m */,
+			);
+			path = WZZEndlessLoopScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51D24A8A1DAA040500EF2A97 /* Endless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D24AA21DAA040500EF2A97 /* Build configuration list for PBXNativeTarget "Endless" */;
+			buildPhases = (
+				51D24A871DAA040500EF2A97 /* Sources */,
+				51D24A881DAA040500EF2A97 /* Frameworks */,
+				51D24A891DAA040500EF2A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endless;
+			productName = Endless;
+			productReference = 51D24A8B1DAA040500EF2A97 /* Endless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51D24A831DAA040500EF2A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					51D24A8A1DAA040500EF2A97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52BPVBHBSC;
+					};
+				};
+			};
+			buildConfigurationList = 51D24A861DAA040500EF2A97 /* Build configuration list for PBXProject "Endless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51D24A821DAA040500EF2A97;
+			productRefGroup = 51D24A8C1DAA040500EF2A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51D24A8A1DAA040500EF2A97 /* Endless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51D24A891DAA040500EF2A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D24A9E1DAA040500EF2A97 /* LaunchScreen.storyboard in Resources */,
+				51D24A9B1DAA040500EF2A97 /* Assets.xcassets in Resources */,
+				51D24A991DAA040500EF2A97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51D24A871DAA040500EF2A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D24A961DAA040500EF2A97 /* ViewController.m in Sources */,
+				51D24A931DAA040500EF2A97 /* AppDelegate.m in Sources */,
+				51D24AA81DAA044900EF2A97 /* WZZEndlessLoopScrollView.m in Sources */,
+				51D24A901DAA040500EF2A97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51D24A971DAA040500EF2A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D24A981DAA040500EF2A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51D24A9C1DAA040500EF2A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D24A9D1DAA040500EF2A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51D24AA01DAA040500EF2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51D24AA11DAA040500EF2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51D24AA31DAA040500EF2A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Endless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.Endless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51D24AA41DAA040500EF2A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Endless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.Endless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51D24A861DAA040500EF2A97 /* Build configuration list for PBXProject "Endless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D24AA01DAA040500EF2A97 /* Debug */,
+				51D24AA11DAA040500EF2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D24AA21DAA040500EF2A97 /* Build configuration list for PBXNativeTarget "Endless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D24AA31DAA040500EF2A97 /* Debug */,
+				51D24AA41DAA040500EF2A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51D24A831DAA040500EF2A97 /* Project object */;
+}
